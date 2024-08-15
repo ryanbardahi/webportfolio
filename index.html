@@ -16,15 +16,18 @@
 <body>
 
 <!-- Navbar -->
-<nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top">
-  <div class="container">
+<nav class="navbar navbar-expand-lg navbar-expand-md navbar-light bg-white sticky-top">
+  <div id="navbar-container" class="container ms-sm-2">
     <a class="navbar-brand fw-bold" href="#landing">Ryan Bardahi</a>
-    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+    <button class="navbar-toggler bg-warning" type="button" data-bs-toggle="collapse" data-bs-target="#navlinks" aria-controls="navlinks" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navlinks">
       <div class="navbar-nav ms-auto">
         <a class="nav-link" aria-current="page" href="#landing">Home</a>
-        <a class="nav-link ps-5" href="#projects">Projects</a>
-        <a class="nav-link ps-5" href="#tools">Tools</a>
-        <a class="nav-link ps-5" href="#contact">Contact</a>
+        <a class="nav-link ps-md-5" href="#projects">Projects</a>
+        <a class="nav-link ps-md-5" href="#tools">Tools</a>
+        <a class="nav-link ps-md-5" href="#contact">Contact</a>
       </div>
     </div>
   </div>
@@ -32,12 +35,12 @@
 
 <!-- Landing -->
 <div  id="landing" class="container-fluid text-light">
-	<div class="row justify-content-center pt-5 pb-1">
-		<div class="col-10 col-md-4 mt-5 mb-5">
-			<img src="./images/ryan.jpg" alt="ryan-bardahi-full-stack-web-developer" class="img-fluid rounded-circle w-75 h-auto">
+	<div class="row justify-content-center pt-lg-5 pb-1">
+		<div class="col-8 col-md-4 mt-3 mt-lg-5 mb-lg-5">
+			<img src="./images/ryan.jpg" alt="ryan-bardahi-full-stack-web-developer" class="img-fluid rounded-circle w-75 h-auto mx-auto d-block">
 		</div>
 
-		<div class="col-md-6 mt-2 mb-5">
+		<div class="col-12 col-lg-6 mt-2 mb-lg-5 mx-sm-5 px-sm-5 text-md-start text-center">
 			<h1>Ryan Bardahi</h1>
 			<h4 class="mb-4">Full Stack Web Developer</h4>
 			<p>Hi, I'm Ryan.</p>
