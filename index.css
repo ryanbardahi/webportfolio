@@ -1,0 +1,69 @@
+* {
+    font-family: "Poppins", sans-serif;
+}
+
+nav {
+    height: 2.5rem;
+}
+
+#navbarNavAltMarkup {
+    text-transform: uppercase;
+}
+
+#navbarNavAltMarkup a:hover {
+    color: #F7C331;
+}
+
+#landing {
+    background: #6B7A8F;
+}
+
+#landing p {
+    background: #6B7A8F;
+    font-size: 1.2rem;
+}
+
+#landing h4 {
+    color: #DCC7AA;
+}
+
+#landing-text-goal {
+    color: #F7C331;
+}
+
+#tools {
+    background: #DCC7AA;
+}
+
+#tools h5 {
+    color: #ffffff;
+    font-size: 1.5rem;
+}
+
+#social img {
+    width: 30px;
+    height: auto;
+}
+
+iframe {
+    width: 65%;
+    height: 65%;
+}
+
+#form-p1 {
+    font-weight: bold;
+    color: #F7882F;
+    font-size: 1.5rem;
+}
+
+#contact button {
+    background: #F7C331;
+}
+
+#social {
+    background: #f1f1f1;
+}
+
+#rights {
+    background: rgba(0, 0, 0, 0.2);
+}
