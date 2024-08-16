@@ -2,6 +2,13 @@
     font-family: "Poppins", sans-serif;
 }
 
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow: none;
+}
+
 #navlinks {
     text-transform: uppercase;
 }
@@ -34,6 +41,11 @@
 #tools h5 {
     color: #ffffff;
     font-size: 1.5rem;
+}
+
+#tools img {
+    width: 150px;
+    height: 150px;
 }
 
 #social img {
@@ -73,4 +85,9 @@ iframe {
   #landing p {
     font-size: 1.1rem;
   }
+  iframe {
+    width: auto;
+    height: auto;
+}
+
 }
